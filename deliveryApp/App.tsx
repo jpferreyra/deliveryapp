@@ -5,6 +5,10 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { HomeScreen } from "./src/Presentation/views/home/Home";
 import { RegisterScreen } from "./src/Presentation/views/register/Register";
 
+import { LogBox } from 'react-native';
+
+LogBox.ignoreAllLogs();
+
 export type RootStackParamList = {
   HomeScreen: undefined,
   RegisterScreen: undefined,

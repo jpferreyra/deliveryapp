@@ -1,5 +1,4 @@
 import { StyleSheet } from "react-native";
-import HomeStyles from "../home/HomeStyles";
 
 const RegisterStyles = StyleSheet.create({
   container: {
