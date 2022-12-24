@@ -6,7 +6,7 @@ interface Props {
     placeholder: string,
     value: string,
     keyboardType: KeyboardType,
-    secureTextEnty? : boolean;
+    secureTextEntry? : boolean;
     property: string,
     onChangeText: (property: string, value: any) => void;
   }
@@ -16,7 +16,7 @@ export const CustomTextInput = ({
     placeholder,
     value,
     keyboardType,
-    secureTextEnty = false,
+    secureTextEntry = false,
     property,
     onChangeText
 }: Props) => {
@@ -32,7 +32,7 @@ export const CustomTextInput = ({
             keyboardType={keyboardType}
             value={value}
             onChangeText={(text) => onChangeText(property,text)}
-            secureTextEntry= {secureTextEnty}
+            secureTextEntry= {secureTextEntry}
           />
         </View>
   )

@@ -87,7 +87,7 @@ export const RegisterScreen = () => {
             property="password"
             onChangeText={onChange}
             value={password}
-            secureTextEnty={true}
+            secureTextEntry={true}
           />
 
           <CustomTextInput
@@ -97,7 +97,7 @@ export const RegisterScreen = () => {
             property="confirmPassword"
             onChangeText={onChange}
             value={confirmPassword}
-            secureTextEnty={true}
+            secureTextEntry={true}
           />
           <View style={{ marginTop: 30 }}>
             <RoundedButton
